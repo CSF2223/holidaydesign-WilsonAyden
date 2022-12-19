@@ -18,15 +18,18 @@ html {
 
 header{
     margin: 0 4rem;
+    margin-top: 3rem;
     letter-spacing: 0.8rem;
     text-align: center;
     border-bottom: 5px solid #CC231E;
     border-right: 5px solid #CC231E;
     border-left: 5px solid #CC231E;
+    border-top: 2px solid #CC231E;
     padding: 0.5rem;
     box-shadow: 4px 4px 5px rgba(0,0,0,0.4);
     text-transform: uppercase;
     font-size: 1.1rem;
+    border-radius: 30px;
 }
 
 body { 
@@ -78,6 +81,7 @@ p{
 
 .imgText{
     margin: 0 4rem;
+    margin-top: 7rem;
     letter-spacing: 0.2rem;
     text-align: center;
     border-bottom: 5px solid #CC231E;
@@ -92,6 +96,7 @@ p{
     font-size: 1rem;
     display: flex;
     justify-content: flex-end;
+    font-weight: 700;
 }
 
 
@@ -100,7 +105,7 @@ p{
         font-size: 1.8rem;
     }
     
-    .gallery {
+    .Holidays {
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
@@ -113,6 +118,14 @@ p{
     
     .imgText{
         max-width: 40%;
+        max-height: 20%;
+        font-size: 18px;
+        letter-spacing: 3px;
+    }
+    
+    .imgText p {
+        margin-top: 2rem;
+        line-height: 2;
     }
     
 }
@@ -124,4 +137,9 @@ img:hover {
 
 .cardText:hover {
   width: 500px;
+}
+
+.imgText:hover {
+  transform: scaleX(-1);
+  transform: scale(1.1);
 }
