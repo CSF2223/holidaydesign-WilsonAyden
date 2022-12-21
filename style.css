@@ -26,7 +26,7 @@ header{
     border-left: 5px solid #CC231E;
     border-top: 2px solid #CC231E;
     padding: 0.5rem;
-    box-shadow: 4px 4px 5px rgba(0,0,0,0.4);
+    box-shadow: 4px 4px 5px rgba(0,0,0,1);
     text-transform: uppercase;
     font-size: 1.1rem;
     border-radius: 30px;
